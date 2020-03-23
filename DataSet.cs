@@ -32,10 +32,6 @@ namespace NAI_Knn_1
                 }
                 entry.identifier = id;
                 //Console.WriteLine(entry.identifier);
-                foreach(double wrr in entry.values)
-                {
-                    //Console.WriteLine(wrr);
-                }
                 entries.Add(entry);
             }
         }
